@@ -61,7 +61,7 @@ export const DashboardNavbar = (props) => {
               <UsersIcon fontSize="small" />
             </IconButton>
           </Tooltip> */}
-          <Tooltip title="Notifications">
+          {/* <Tooltip title="Notifications">
             <IconButton sx={{ ml: 1 }}>
               <Badge
                 badgeContent={4}
@@ -71,7 +71,7 @@ export const DashboardNavbar = (props) => {
                 <BellIcon fontSize="small" />
               </Badge>
             </IconButton>
-          </Tooltip>
+          </Tooltip> */}
           <Avatar
             onClick={() => setOpenAccountPopover(true)}
             ref={settingsRef}

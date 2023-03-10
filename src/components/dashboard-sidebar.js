@@ -33,11 +33,11 @@ const items = [
     icon: (<ShoppingBagIcon fontSize="small" />),
     title: 'Tracks'
   },
-  // {
-  //   href: '/account',
-  //   icon: (<UserIcon fontSize="small" />),
-  //   title: 'Account'
-  // },
+  {
+    href: '/accounts',
+    icon: (<UserIcon fontSize="small" />),
+    title: 'User List'
+  },
   // {
   //   href: '/settings',
   //   icon: (<CogIcon fontSize="small" />),
@@ -104,7 +104,7 @@ export const DashboardSidebar = (props) => {
                     width: 42
                   }}
                 />
-                <h3 sty>Motorsports Racing Events</h3>
+                {/* <h3 sty>Motorsports Racing Events</h3> */}
               </a>
             </NextLink>
           </Box>
@@ -195,7 +195,7 @@ export const DashboardSidebar = (props) => {
           >
             <img
               alt="Go to pro"
-              src="/static/images/sidebar_pro.png"
+              src="/static/images/products/Racing.png"
             />
           </Box>
         </Box>

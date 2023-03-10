@@ -46,11 +46,11 @@ const Page = () => (
             pt: 3
           }}
         >
-          <Pagination
+          {/* <Pagination
             color="primary"
             count={3}
             size="small"
-          />
+          /> */}
         </Box>
       </Container>
     </Box>

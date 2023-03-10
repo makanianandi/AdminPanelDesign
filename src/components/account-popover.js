@@ -29,7 +29,7 @@ export const AccountPopover = (props) => {
 
       // Redirect to sign-in page
       Router
-        .push('/sign-in')
+        .push('/login')
         .catch(console.error);
       return;
     }
@@ -43,7 +43,7 @@ export const AccountPopover = (props) => {
 
       // Redirect to sign-in page
       Router
-        .push('/sign-in')
+        .push('/login')
         .catch(console.error);
     } catch (err) {
       console.error(err);
