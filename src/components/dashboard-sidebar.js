@@ -43,11 +43,11 @@ const items = [
   //   icon: (<CogIcon fontSize="small" />),
   //   title: 'Settings'
   // },
-  {
-    href: '/login',
-    icon: (<LockIcon fontSize="small" />),
-    title: 'Login'
-  },
+  // {
+  //   href: '/login',
+  //   icon: (<LockIcon fontSize="small" />),
+  //   title: 'Login'
+  // },
   // {
   //   href: '/register',
   //   icon: (<UserAddIcon fontSize="small" />),
